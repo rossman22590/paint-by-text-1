@@ -46,16 +46,16 @@ export default function Footer({ events, startOver, handleImageDropped }) {
 
       <div className="text-center lil-text mt-8">
       <div className="inline-block py-2 px-4 border border-yellow-200 rounded-lg bg-[#fef6aa]">
-      🤔 Are you a developer and want to learn how to build this? Check out the{" "}
-        <Link href="https://github.com/replicate/paint-with-words#readme">
-          <a target="_blank">README</a>
+      🤔 Brought to you by the Pixio team , please email support@mytsi.org - if you have any issues.{" "}
+        <Link href="https://pixio.myapps.ai">
+          <a target="_blank">Pixio</a>
         </Link>.
       </div>
       </div>
 
       <div className="text-center lil-text mt-8">
         Powered by{" "}
-        <Link href="https://www.timothybrooks.com/instruct-pix2pix/">
+        <Link href="https://myapps.ai/">
           <a target="_blank">InstructPix2Pix</a>
         </Link>
         ,{" "}
@@ -67,8 +67,8 @@ export default function Footer({ events, startOver, handleImageDropped }) {
           <a target="_blank">Vercel</a>
         </Link>
         , and{" "}
-        <Link href="https://github.com/replicate/instruct-pix2pix-demo">
-          <a target="_blank">GitHub</a>
+        <Link href="https://pixio.myapps.ai">
+          <a target="_blank">Pixio</a>
         </Link>
       </div>
     </footer>
